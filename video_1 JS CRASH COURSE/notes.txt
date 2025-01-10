@@ -1,0 +1,108 @@
+
+js language like a English language 
+
+chacha == not a keyword , its a word
+
+for , if , else , var , let 
+
+keyword : anything which has meaning in th langauge 😃
+
+var let const  
+
+ chacha
+ variables = example mario , pubg ,contra , subway sufers you have score
+
+ score = 10
+ lives = 3
+
+ finalScore = 10
+
+ code mein koi bhi data store karne ke liye jiska use hota hai usse kheta hai variable
+
+variables and constant are english words
+variables matlab jiski value badle eg remote , mobile 
+constants matlab jiski value nhi badlti 
+
+lets go demo!
+
+var let const difference future mein kabhi 🔮
+
+hoisting matlab variables bananey se phele hum usse access kar sktey hai  
+
+
+
+variable and functions are hoisted which means there declaration is moved on the top of code
+
+var a; maltab undefined
+
+var a;
+var a = 10 matlab
+
+a = 10; 
+
+undefined and not defined : existence hai par value nhi pta and existence nhi hai.ex chamakchankachur
+
+types in js
+primitives and reference
+
+primitives = number , string , boolean , null undefined , symbol 
+references = [] , () , {}
+
+aisi koi bhi value jisko copy karne par real copy nhi hota balki us main value ka reference pass hojata hai, usse hum reference value khetey , aur jiska copy karne par real copy ho jaaye wo value primitive type value hai.
+
+reference type example : mera biscuit adharsh ka bhi remote , aur uss ko remote ko aag lga di. biscuit gya , adharsh bhaiya ne khali wo biscuit 
+toh biscuit gya.
+
+Conditionals - if else else-if 
+
+jab bhi baat agar magar par ayegi , yaa fir baat aayegi aisa hua to ye karo waisa hua toh wo karo
+lets go
+
+loop ka matlab repeat eg hello hello hello hello hello
+111111111111111 ->repeat
+222222222222222 -> repeat
+123456789 ->repeat
+3 baar harsh print karo
+
+console.log(harsh)
+console.log(harsh)
+console.log(harsh)
+
+30 baar harsh print karo yaha loop lagega
+loop - for while
+
+
+while
+// while ke anadar kuch esa likho jo true hogaye ya false
+while(){
+
+}
+
+function ka matlab aap kuch code ko likhakr koi naam de skteh ho and baad mein usey use kar sktey ho with that name as many times.
+ex Bike 
+
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-    => apple 
+-
+
+apple()  
+
+: mainly teen kaam ke liye hote hai
+1) jab aapka code app turant nhi chalna chaahte future mein chalana chaahte ho eg hellobolo , oatsBanaoAndKhao , function ko reuse kar sktey 
+2) jab appka code aap resuse karna chahte ho
+3)ja aap code chalana chaharwy ho har baar with different data.
+
+
+arguments -  real value jo hum dete hai function chalate waqt.
+paramteres - variables jismein value store hoti hai arguments waali.
+
+start at 1:05 🌟
