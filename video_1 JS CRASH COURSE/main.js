@@ -1,3 +1,16 @@
+console.log(firstName);
+var firstName;
+
+
+// hero is not a keyword 
+
+// for
+// if()
+// elseif
+// else
+// while
+// var
+// let const 
 
 
 var dulha = "Lab";
@@ -15,6 +28,12 @@ const dulhan1 = "labby";
 
 console.log(dulha1 + " " + dulhan1);
 
+// var firstName = "durgesh";
+// 
+
+firstName = "durgesh";
+
+
 // hoisting
 
 var a = 12;
@@ -25,7 +44,7 @@ var a;
 a = 12;
 
 
-// undefined and not defined ho gya 
+// undefined and not defined same nhi hotey!
 
 var a = 12;
 
@@ -117,10 +136,76 @@ function abcd(){
 }
 
 
-
+// parameters
 function abcd(a,b,c){
 console.log(a,b,c)
 }
 
-// ye 12 function abcd mey recieve hoga
+// ye 12 13 14 function abcd mey recieve hoga
 abcd(12, 13 , 14);
+// arguemnts
+
+
+// arrays
+
+var a = [12,13];
+var arr = [1,2,3,4,5,6,7];
+
+// pop push shift unshift
+
+var arr1 = [1,2,3,4,5,6];
+// push : ek extra member jodney ke liye hota hai push
+// arr1.push(8);
+// console.log(arr1);
+// pop : arr se htane ke liye hota hai pop
+// console.log("Pop is here!");
+// arr1.pop();
+// console.log(arr1);
+//arr ke shuru mey hota jodney  keliye hota hai : unshift
+// console.log("unshift is here!");
+// arr1.unshift(0);
+// console.log(arr1);
+// arr se shuruvat ki value hataney ke liye hota hai : shift
+// console.log("shift is here!");
+// arr1.shift();
+// console.log(arr1);
+
+// splice(indexofvalue,how much)
+arr1.splice(2,1);
+arr1.splice(2,2);
+
+
+var a = 10;
+
+var b = a;
+//real copy hogyi
+b = b + 10;
+
+console.log(a,b);
+
+// Reference Value ka Example
+let array1 = [1,2,3];
+let array2 = array1;
+
+console.log("Before Changing : ");
+console.log("Array1 is : ",array1);
+console.log("Array2 is : ",array2);
+
+
+// let update 
+array2[1] = 99;
+
+
+console.log("After Changing : ");
+console.log("Array1 is : ",array1);
+console.log("Array2 is : ",array2);
+
+
+// splice 
+let shivArray = [1,2,3,4,5];
+
+// shivArray.splice(0,3);
+// shivArray.splice(2,3);
+shivArray.splice(3,2);
+
+console.log(shivArray);

@@ -5,7 +5,7 @@ chacha == not a keyword , its a word
 
 for , if , else , var , let 
 
-keyword : anything which has meaning in th langauge 😃
+keyword : anything which has meaning in th langauge* 😃
 
 var let const  
 
@@ -17,7 +17,30 @@ var let const
 
  finalScore = 10
 
- code mein koi bhi data store karne ke liye jiska use hota hai usse kheta hai variable
+ code mein koi bhi data store karne ke liye jiska use hota hai usse kheta hai variable* ex {
+    sdsdsd
+
+    sdsdsd
+
+    sd
+    sd
+    s
+    ds
+    ds
+    d
+    sd
+    sdsdsdsd
+
+    ds
+    d
+    sd
+    sd
+    s
+    ds
+    ds
+    d
+    s
+ }
 
 variables and constant are english words
 variables matlab jiski value badle eg remote , mobile 
@@ -27,7 +50,7 @@ lets go demo!
 
 var let const difference future mein kabhi 🔮
 
-hoisting matlab variables bananey se phele hum usse access kar sktey hai  
+hoisting matlab variables bananey se phele hum usse access kar sktey hai*  
 
 
 
@@ -45,13 +68,29 @@ undefined and not defined : existence hai par value nhi pta and existence nhi ha
 types in js
 primitives and reference
 
-primitives = number , string , boolean , null undefined , symbol 
+primitives = number , string , boolean , null undefined , symbol.
 references = [] , () , {}
+  
+Primitive type value wo hoti hai jisko copy karne par uski actual value ka copy milta hai. Iska matlab hai ki agar aap is value ko change karte hain, toh wo change sirf copied value par hoga, original value par nahi.
+Reference value wo hoti hai jisko copy karne par original value ka reference pass hota hai, na ki uski actual value. Iska matlab hai ki agar aap ek reference value ko change karte hain, toh wo change original value ko bhi affect karega.
 
-aisi koi bhi value jisko copy karne par real copy nhi hota balki us main value ka reference pass hojata hai, usse hum reference value khetey , aur jiska copy karne par real copy ho jaaye wo value primitive type value hai.
+ex  : // Primitive Type Value ka Example
+let a = 10;        // 'a' ek integer hai
+let b = a;        // 'b' ko 'a' ki value assign karte hain
+
+console.log("Before changing:");
+console.log("a =", a);  // Output: a = 10
+console.log("b =", b);  // Output: b = 10
+
+// 'b' ki value change karte hain
+b = 20;
+
+console.log("After changing:");
+console.log("a =", a);  // Output: a = 10 (original value unchanged)
+console.log("b =", b);
 
 reference type example : mera biscuit adharsh ka bhi remote , aur uss ko remote ko aag lga di. biscuit gya , adharsh bhaiya ne khali wo biscuit 
-toh biscuit gya.
+toh biscuit gya.*
 
 Conditionals - if else else-if 
 
@@ -99,10 +138,19 @@ apple()
 : mainly teen kaam ke liye hote hai
 1) jab aapka code app turant nhi chalna chaahte future mein chalana chaahte ho eg hellobolo , oatsBanaoAndKhao , function ko reuse kar sktey 
 2) jab appka code aap resuse karna chahte ho
-3)ja aap code chalana chaharwy ho har baar with different data.
+3)ja aap code chalana chahtey ho har baar with different data.
 
 
 arguments -  real value jo hum dete hai function chalate waqt.
 paramteres - variables jismein value store hoti hai arguments waali.
 
 start at 1:05 🌟
+
+arrays = hum ek variable mein ek value store kar paate hai par jab humein ek se jaada value store karni ho tab fir use hota hai array ka , matlab ki array aapko freedom deta hai ek se jaada value use karne ki 
+
+
+array = group of values
+
+index yaani counting start from zero. 
+
+splice  : array ke bich mey koi value hatani ho toh 
