@@ -1,0 +1,21 @@
+
+var was used in older versions
+var old js mein tha
+var aaya tha es5 mein
+var function scoped hota hai => 
+var apne parent function mein kahi bhi use ho skta hai 
+var adds itself to the window object.
+
+function abcd(){
+    var a  = 12;
+}
+
+for katam var katam ❌ NO!!!! 
+
+let const aaya tha es6 mein
+let const new js mein hai
+let braces scoped hote hai
+let const doesnt add.
+
+
+window obj wo obj hota hai jiske andar browser se related features dale hue hai jo js use kar skti hai

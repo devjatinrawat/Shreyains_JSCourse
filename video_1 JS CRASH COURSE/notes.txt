@@ -9,6 +9,7 @@ keyword : anything which has meaning in th langauge* 😃
 
 var let const  
 
+var Examples ✅
  chacha
  variables = example mario , pubg ,contra , subway sufers you have score
 
@@ -17,44 +18,27 @@ var let const
 
  finalScore = 10
 
- code mein koi bhi data store karne ke liye jiska use hota hai usse kheta hai variable* ex {
-    sdsdsd
+ code mein koi bhi data store karne ke liye jiska use hota hai usse kheta hai variable* 
 
-    sdsdsd
-
-    sd
-    sd
-    s
-    ds
-    ds
-    d
-    sd
-    sdsdsdsd
-
-    ds
-    d
-    sd
-    sd
-    s
-    ds
-    ds
-    d
-    s
- }
+ variables jiski value badal skti hai.
 
 variables and constant are english words
-variables matlab jiski value badle eg remote , mobile 
-constants matlab jiski value nhi badlti 
+variables matlab jiski value badle eg age , friends. 
+constants matlab jiski value nhi badlti eg birthyear , gender . 
 
 lets go demo!
 
 var let const difference future mein kabhi 🔮
 
-hoisting matlab variables bananey se phele hum usse access kar sktey hai*  
+hoisting ✅
+matlab variables bananey se phele hum usse access kar sktey hai*  
 
 
-
-variable and functions are hoisted which means there declaration is moved on the top of code
+variable and functions are hoisted which means there declaration is moved on the top of code.
+For functions : 
+This is because both the declaration and the definition are moved to the top.
+For variables declared with var, accessing them before their declaration results in undefined.
+For function declarations, you can call them before they appear in the code without encountering an error.
 
 var a; maltab undefined
 
@@ -65,11 +49,12 @@ a = 10;
 
 undefined and not defined : existence hai par value nhi pta and existence nhi hai.ex chamakchankachur
 
-types in js
+types in js ✅
 primitives and reference
 
 primitives = number , string , boolean , null undefined , symbol.
 references = [] , () , {}
+reference yanni koi bhi brackets 
   
 Primitive type value wo hoti hai jisko copy karne par uski actual value ka copy milta hai. Iska matlab hai ki agar aap is value ko change karte hain, toh wo change sirf copied value par hoga, original value par nahi.
 Reference value wo hoti hai jisko copy karne par original value ka reference pass hota hai, na ki uski actual value. Iska matlab hai ki agar aap ek reference value ko change karte hain, toh wo change original value ko bhi affect karega.
@@ -97,7 +82,8 @@ Conditionals - if else else-if
 jab bhi baat agar magar par ayegi , yaa fir baat aayegi aisa hua to ye karo waisa hua toh wo karo
 lets go
 
-loop ka matlab repeat eg hello hello hello hello hello
+loop : 
+ ka matlab repeat eg hello hello hello hello hello
 111111111111111 ->repeat
 222222222222222 -> repeat
 123456789 ->repeat
@@ -117,23 +103,9 @@ while(){
 
 }
 
-function ka matlab aap kuch code ko likhakr koi naam de skteh ho and baad mein usey use kar sktey ho with that name as many times.
-ex Bike 
-
--
--
--
--
--
--
--
--
--
--
--    => apple 
--
-
-apple()  
+function ✅
+ka matlab aap kuch code ko likhakr koi naam de skteh ho and baad mein usey use kar sktey ho with that name as many times.
+ex Cake Builder
 
 : mainly teen kaam ke liye hote hai
 1) jab aapka code app turant nhi chalna chaahte future mein chalana chaahte ho eg hellobolo , oatsBanaoAndKhao , function ko reuse kar sktey 
@@ -153,4 +125,16 @@ array = group of values
 
 index yaani counting start from zero. 
 
-splice  : array ke bich mey koi value hatani ho toh 
+splice  :Splice() method ka istemal array ke kisi specific position se elements ko remove karne ya naye elements ko add karne ke liye hota hai.
+splice(start, deleteCount) 
+for more info 
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice 
+
+objects ✅
+ : ek se jyaade bande ki baat to hua array , ek bande ke baare mein saari baat ki to hua object.
+ex object hai ek bande ki details ko hold karna , in a key value pair 
+ex bhopal ke saare harsh , sarre rubix cube
+ex ceo ek hai 
+
+method  ✅
+: ek eise property jiski value function ho toh wo ban jayega method

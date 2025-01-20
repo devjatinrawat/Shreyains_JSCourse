@@ -1,3 +1,10 @@
+
+
+
+
+
+// var Examples ✅
+
 console.log(firstName);
 var firstName;
 
@@ -12,6 +19,10 @@ var firstName;
 // var
 // let const 
 
+var student = "aman";
+var teacher = "anvit";
+
+console.log(student , teacher);
 
 var dulha = "Lab";
 var dulhan = "Labby";
@@ -33,8 +44,17 @@ console.log(dulha1 + " " + dulhan1);
 
 firstName = "durgesh";
 
+const amountSavedThisMonth = 1000;
+console.log(amountSavedThisMonth);
+// hoisting Examples✅
 
-// hoisting
+// console.log(b3);
+// var b3 = 10;
+
+var b3;
+console.log(b3);
+b3 = 10;
+console.log(b3);
 
 var a = 12;
 
@@ -42,6 +62,33 @@ var a = 12;
 
 var a;
 a = 12;
+
+function greet(name){
+    var a;
+    console.log(a);
+    console.log("Hello " ,name);
+}
+
+greet('jatin');
+
+// types in js Examples ✅
+var a = 10;
+
+var b = a;
+
+var b = b + 2;
+
+console.log(a,b);
+
+var a = [1,2,3];
+
+var b = [];
+
+b = a;
+
+b[0]  = 12;
+
+console.log(a,b);
 
 
 // undefined and not defined same nhi hotey!
@@ -69,9 +116,16 @@ b2.pop();
 console.log(b2,a2);
 // isliye b2 badli a2 ki bhi badl gyi.
 
+
+// Conditionals - if else else-if ✅
 // matlab isme do hi cheezen aa skta 
 // if(true)
 // if(false)
+
+// if(a > 10)
+
+// if(a
+// if b is always true if(b)
 
 // udaran 
 if(a>b){
@@ -104,7 +158,7 @@ else{
 
 }
 
-
+// loop Examples✅
 // for loop
 
 // for(start ; end ; change)
@@ -113,6 +167,7 @@ else{
 // 11111111111111
 //12345678910
 // change kis tarikey se aagey badega 
+
 
 for(var i = 0; i < 11 ; i++){
     console.log(i);
@@ -125,12 +180,27 @@ for( var i = 25 ; i < 51 ; i++){
     console.log(i);
 }
 
+var iterator = 10;
+
+while(iterator > 1){
+    console.log(iterator);
+    iterator--;
+}
+
 var a = 12;
 
 while(a<20){
 a++;
 }
 
+function paymentGateway(name1,name2,name3){
+    console.log(name1, name2 , name3);
+}
+
+paymentGateway('googlepay', 'phonepe' , 'patym' );
+paymentGateway('razorpay' , 'payU' , 'instamojo' );
+
+// function  Examples ✅
 function abcd(){
     // function statement
 }
@@ -146,10 +216,24 @@ abcd(12, 13 , 14);
 // arguemnts
 
 
-// arrays
+// arrays Examples✅
 
 var a = [12,13];
 var arr = [1,2,3,4,5,6,7];
+// splice Examples ✅
+
+// console.log(arr.splice(2,2));
+// console.log(arr.splice(4,1));
+// console.log(arr.splice(5,2));
+// this is same as === 👇👇👇👇👇
+
+const newArray1 = arr.splice(2,2);
+console.log(newArray1);
+const newArray2 = arr.splice(4,1);
+console.log(newArray2);
+const newArray3 = arr.splice(5,2);
+console.log(newArray3);
+// splice(start, deleteCount)
 
 // pop push shift unshift
 
@@ -169,43 +253,38 @@ var arr1 = [1,2,3,4,5,6];
 // console.log("shift is here!");
 // arr1.shift();
 // console.log(arr1);
-
-// splice(indexofvalue,how much)
-arr1.splice(2,1);
-arr1.splice(2,2);
+// Array Methods ✅
+// For ALL Methods of Array : https://www.perplexity.ai/search/greet-jatin-function-greet-nam-0wtZeqXrQFSyiPRdJkljDg
 
 
-var a = 10;
-
-var b = a;
-//real copy hogyi
-b = b + 10;
-
-console.log(a,b);
-
-// Reference Value ka Example
-let array1 = [1,2,3];
-let array2 = array1;
-
-console.log("Before Changing : ");
-console.log("Array1 is : ",array1);
-console.log("Array2 is : ",array2);
+// Objects ✅
+//1) blank object 
+var a = {};
 
 
-// let update 
-array2[1] = 99;
 
+//2) Filled object 
+var b = {
+    age : 24,
+    name : "Harsh",
+    email : "apnaguru2019@gmail.com",
+    linkedin : "harsh",
+    contact : 9023203920392932,
+};
 
-console.log("After Changing : ");
-console.log("Array1 is : ",array1);
-console.log("Array2 is : ",array2);
+// ex musje gadhi ki saari values ko store karna hai 
 
+var ghadi = {
+    // these brand are properties
+    brand : "Kenneth Cole",
+    price : "16K",
+    color : "silver",
+    digital : false,
+    kuchBolo : function(a){
+        console.log(a);
+    }
+}
 
-// splice 
-let shivArray = [1,2,3,4,5];
-
-// shivArray.splice(0,3);
-// shivArray.splice(2,3);
-shivArray.splice(3,2);
-
-console.log(shivArray);
+// Accessing properties and methods ✅✅
+console.log(ghadi.color);
+console.log(ghadi.kuchBolo(14));
