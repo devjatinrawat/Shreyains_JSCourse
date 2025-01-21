@@ -1,0 +1,42 @@
+
+
+// Var ✅
+var was used in older versions
+var old js mein tha
+var aaya tha es5 mein
+var function scoped hota hai => 
+var apne parent function mein kahi bhi use ho skta hai 
+var adds itself to the window object.
+
+function abcd(){
+    var a  = 12;
+}
+
+
+// Let ✅
+var katam ❌ NO!!!! 
+
+let const aaya tha es6 mein
+let const new js mein hai
+let braces scoped hote hai
+let const doesnt add itself to the window object.
+
+//Window Object ✅
+JS Lang kuch cheeje nhai hai jo hum use kar 
+sktey hai aur wo cheeze hum js se nahi balki 
+browser se miltey hai.
+usse hum dudh sktey hai ek object mey window object.
+window obj wo obj hota hai jiske andar browser se related features dale hue hai jo js use kar skti hai
+ex pen mobile holder example
+js mein kai saare features hai par kuch features jo 
+hum use kartey hai wo features wo nahu hai pr fir bhi use kar paate hai kyuki wo features js lang use kar leti hai window se , aur window hai ek box of features given by browser to use with js.
+ex alert , console , prompt
+window
+
+browser context api  ✅
+mein window , stack , heap.
+stack memory: 
+https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/8e1fef91-a399-5d6f-9010-bb380439a77e/bf1e9038-05fb-5da0-9ff6-f9c887912e26.jpg
+
+
+heap memory : continued

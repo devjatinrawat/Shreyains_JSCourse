@@ -287,4 +287,9 @@ var ghadi = {
 
 // Accessing properties and methods ✅✅
 console.log(ghadi.color);
+// This is prop
 console.log(ghadi.kuchBolo(14));
+// This is method
+ghadi.digital = "Hello";
+
+console.log(ghadi.digital);
